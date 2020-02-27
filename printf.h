@@ -127,5 +127,7 @@ void						rounding(char *tmp, int p);
 void						f_print_with_minus1(t_printf *list, long double x);
 void						f_presicion_over_len1(t_printf *list, long double x);
 void						f_print_without_minus1(t_printf *list, long double x);
+char						*full_str(unsigned long long *arr, int i);
+
 
 #endif
