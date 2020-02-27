@@ -67,7 +67,7 @@ void	handling_float_long(long double d, int countofel, int pow, t_printf *list)
 	char				*tmp;
 	long long			n;
 
-	n = 87;
+	n = 86;
 	i = 0;
 	d1.d = d;
 	printf("m:%llu\n", d1.part.m);
