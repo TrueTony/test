@@ -1,5 +1,1 @@
-gcc -g -Wall -Wextra -Werror adv_itoa.c ap_arith.c parsing.c ft_printf.c type_c.c type_di.c type_other.c add_func.c handling_f.c type_f.c type_s.c type_u.c type_x.c type_p.c lib.c main.c type_o.c type_di_add.c type_b.c type_f_add.c
-
-23.834137509449909
-
-23 834137509449899 2 837088735541328787803649902343750000
+gcc -g -Wall -Wextra -Werror adv_itoa.c ap_arith.c parsing.c ft_printf.c type_c.c type_di.c type_other.c add_func.c handling_f.c type_f.c type_s.c type_u.c type_x.c type_p.c lib.c main.c type_o.c type_di_add.c type_b.c type_f_add.c handling_f_long.c

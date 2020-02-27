@@ -22,7 +22,7 @@ void	f_print_with_minus1(t_printf *list, long double x)
 	if (list->len_of_x > 0)
 	{
 		if 	(ft_strcmp(list->length, "L") == 0)
-			handling_float(x, 15, 64, list);
+			handling_float(x, 15, 63, list);
 		else
 			handling_float(x, 15, 52, list);
 		list->widthofline -= list->len_of_x;
@@ -49,7 +49,7 @@ void	f_presicion_over_len1(t_printf *list, long double x)
 		list->widthofcontent--;
 	}
 	if 	(ft_strcmp(list->length, "L") == 0)
-		handling_float(x, 15, 64, list);
+		handling_float(x, 15, 63, list);
 	else
 		handling_float(x, 15, 52, list);
 }
@@ -74,7 +74,7 @@ void	f_print_without_minus1(t_printf *list, long double x)
 		list->widthofline--;
 	}
 	if 	(ft_strcmp(list->length, "L") == 0)
-		handling_float(x, 15, 64, list);
+		handling_float(x, 15, 63, list);
 	else
 		handling_float(x, 15, 52, list);
 }

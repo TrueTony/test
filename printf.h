@@ -61,7 +61,7 @@ typedef	union				u_double_l
 	long double					d;
 	struct
 	{
-		unsigned long long	m:	64;
+		unsigned long long	m:	63;
 		unsigned long long	e:	15;
 		unsigned long long	s:	1;
 	}						part;

@@ -70,8 +70,8 @@ void	handling_float_long(long double d, int countofel, int pow, t_printf *list)
 	n = 86;
 	i = 0;
 	d1.d = d;
-	printf("m:%llu\n", d1.part.m);
-	printf("e:%llu\n", d1.part.e);
+	//printf("m:%llu\n", d1.part.m);
+	//printf("e:%llu\n", d1.part.e);
 	arr = (unsigned long long*)malloc(sizeof(unsigned long long) * countofel);
 	ap_number_long(d1, arr, countofel, pow);
 	i = 0;
